@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hubungi Kami - Universitas Pamulang</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      footer {
+          background-color: #363851;
+          color: white;
+          padding: 20px;
+          text-decoration: none;
+        }
+        .footer-container {
+          max-width: 960px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+        .footer-left, .footer-middle, .footer-right {
+          flex: 1;
+          padding: 10px;
+        }
+         @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+            .footer-left, .footer-middle, .footer-right {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .agenda-item, .prodi-image{
+              width: 90%;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <section class="container my-5">
+      <h1 class="text-center mb-4">Hubungi Kami</h1>
+        <div class="col-md-6">
+          <h3>Formulir Kontak</h3>
+          <form action="#" method="POST">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="nama" name="nama" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" name="pesan" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+          <img class="logo" src="assets/image/Screenshot 2024-12-20 231506.png" alt="Universitas Pamulang - Sistem Informasi Logo"> <p>Jl. Surya Kencana No. 1, Pamulang Barat,<br>Kecamatan Pamulang, Tangerang<br>Selatan, Tangerang Selatan, Banten,<br>Indonesia</p>
+      </div>
+      <div class="footer-middle">
+          <div class="quick-links">
+              <h3>Quick Link</h3>
+              <ul>
+                  <li><a href="https://my.unpam.ac.id/login">My Unpam</a></li>
+                  <li><a href="https://dosen.unpam.ac.id/login">My Dosen</a></li>
+                  <li><a href="https://el-filkom.unpam.ac.id/">E-learning</a></li>
+                  <li><a href="https://siskerma.unpam.ac.id/login">Siskerma</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-right">
+          <div class="contact-info">
+              <h3>Contact Us</h3>
+              <p>Jl. Puspitok, Buaran, Kec. Pamulang, Kota Tangerang Selatan, Banten 15310</p>
+              <p>021-7470 9855 | Ext: 1042</p>
+              <p><a href="mailto:sistem_informasi@unpam.ac.id">sistem_informasi@unpam.ac.id</a></p>
+          </div>
+      </div>
+  </div>
+</footer>
+</html>

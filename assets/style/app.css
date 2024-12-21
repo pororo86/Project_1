@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #d6eff4;
+  /* text-decoration: none; */
+}
+.navbar {
+  background: #ffffff;
+  margin: 0;
+  padding-left: 2%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tombol {
+  display: none;
+  color: rgb(223, 217, 217);
+  font-size: 14pt;
+}
+
+.tombol:hover {
+  cursor: pointer;
+}
+
+.menu {
+  margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  padding-left: 0;
+  margin-right: 15px;
+}
+
+.menu li a {
+  padding: 15px;
+  color: rgb(17, 14, 14);
+  text-decoration: none;
+  display: inline-block;
+}
+.menu li a:hover {
+  display: block;
+  background-color: rgb(200, 201, 201);
+  transition: background-color 0.3s ease;
+}
